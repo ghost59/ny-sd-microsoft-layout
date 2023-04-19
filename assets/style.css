@@ -48,3 +48,17 @@ nav ul li a {
     height: 200px;
     padding-top: 30px;
 }
+
+img{
+    padding: 2px;
+    border: 2px;
+    height: 30px;
+}
+
+.examples{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+
+}
+
