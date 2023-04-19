@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    padding-left:  20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.notification {
+    height: 25px;
+    background: blue;
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    height: 500px;
+    background: red;
+}
+
+.products {
+    background: teal;
+    display: flex;
+    justify-content: center;
+}
+
+.products div {
+    height: 200px;
+    padding-top: 30px;
+}
