@@ -25,6 +25,11 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
 }
+.Ms{
+    
+    height: 20px;
+    width: 20px; 
+}
 
 .notification {
     height: 25px;
@@ -35,11 +40,25 @@ nav ul li a {
 
 .hero {
     height: 500px;
-    background: red;
+    background: white;
+    display: flex;
 }
 
+.subhero{
+   margin: 70px;
+   
+   width: 63%;
+   border: 3px;
+   padding: 50px;
+}
+.image{
+    height: 300px;
+    justify-content: flex-end;
+    
+}   
+
 .products {
-    background: teal;
+    background: white;
     display: flex;
     justify-content: center;
 }
@@ -49,16 +68,21 @@ nav ul li a {
     padding-top: 30px;
 }
 
-img{
-    padding: 2px;
-    border: 2px;
-    height: 30px;
-}
+
 
 .examples{
-    background-color: teal;
+    background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 30px;
+    height: 200px;
 
 }
-
+.example{
+    height: 150px;
+    
+}
+button{
+    color: aliceblue;
+    background-color: black;
+}
